@@ -1,1 +1,7 @@
-name: minions-invoices-workspace\ndescription: Invoice generation, payment tracking, due dates, and billing status for agency clients\npriority: high\ntags:\n  - foundation\n  - ecosystem\ndeploy_url: null\n
+name: minions-invoices-workspace
+project_scope: main
+project_type: monorepo
+description: "Invoice generation, payment tracking, due dates, and billing status for agency clients"
+priority: high
+deploy_url: null
+tags: [minion, toolbox, ai-agent, automation, minions, invoices]

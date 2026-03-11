@@ -18,7 +18,8 @@
     "test": "pnpm --filter @minions-invoices/sdk run test",
     "lint": "pnpm --filter @minions-invoices/sdk run build && pnpm --filter @minions-invoices/sdk run lint && pnpm --filter @minions-invoices/cli run lint",
     "deploy": "pnpm run deploy:blog",
-    "dev": "echo 'no dev'"
+    "dev": "echo 'no dev'",
+    "stop": "pkill -f 'node.*minions-invoices' || true"
   },
   "engines": {
     "node": ">=20"

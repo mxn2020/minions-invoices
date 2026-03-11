@@ -1,1 +1,8 @@
-name: @minions-invoices/web\ndescription: Standard compliance definition for @minions-invoices/web\npriority: high\ntags:\n  - foundation\n  - ecosystem\ndeploy_url: null\n
+name: "@minions-invoices/web"
+project_scope: child
+child_type: web-app
+parent_project: minions-invoices-workspace
+description: "Standard compliance definition for @minions-invoices/web"
+priority: high
+deploy_url: null
+tags: null
